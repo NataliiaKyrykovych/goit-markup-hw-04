@@ -3,6 +3,8 @@
     --primary-text-color: #2E2F42;
     --background-color: #4D5AE5;
     --letter-spacing: 0.02em;
+    --gra: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7))
 }
 
 .list {
@@ -143,12 +145,13 @@ img {
     }
 
 .hero {
-    background: var(--primary-text-color);
+    /* background: var(--primary-text-color); */
     padding-top: 188px;
     padding-bottom: 188px;
     display: block;
     margin: 0 auto;
-    }
+    background-image: var(--gra), url(../images/people-office.jpg);
+}
 
 .modal-btn {
     font-family: 'Roboto', sans-serif;
@@ -183,7 +186,15 @@ padding-bottom: 120px;
     padding-top: 120px;
     padding-bottom: 120px;
 }
-
+.team-soc-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.soc-items{
+    width: 40px;
+    height: 40px;
+}
 .modal-btn:hover,
 .modal-btn:focus {
     color: #FFFFFF;
