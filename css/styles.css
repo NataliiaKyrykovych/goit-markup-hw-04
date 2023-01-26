@@ -150,6 +150,9 @@ img {
     padding-bottom: 188px;
     display: block;
     margin: 0 auto;
+    background-repeat: no-repeat;
+    /* height: 600px;
+    background-size: cover; */
     background-image: var(--gra), url(../images/people-office.jpg);
 }
 
@@ -194,6 +197,15 @@ padding-bottom: 120px;
 .soc-items{
     width: 40px;
     height: 40px;
+}
+.soc-link{
+    width: 100%;
+    height: 100%;
+    background-color:#4D5AE5;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
 }
 .modal-btn:hover,
 .modal-btn:focus {
@@ -268,7 +280,7 @@ width: calc((100% - 24px)/4);
     letter-spacing: var(--letter-spacing);
     /* SLATE */
     color:var(--accent-color);
-    
+    margin-bottom: 8px;
 }
 .list-btn {
     justify-content: center;
@@ -304,6 +316,33 @@ width: calc((100% - 24px)/4);
 .suptitle-services{
     border: 1px solid #E7E9FC;
     padding: 32px 16px;
+}
+.customers{
+    padding-top: 130px;
+    padding-bottom: 120px;
+}
+.list-customers{
+    display: flex;
+    gap: 24px;
+}
+.logo-customers{
+    width: calc( ( 100% - 120 ) / 6);
+    height: 88px;
+}
+.customers-link{
+    width: 168px;
+    height: 88px;
+    border: 1px solid #8E8F99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+.customers-link:is(:hover, :focus){
+    border-color: #404BBF;
+}
+.customers-icon{
+    fill: #8E8F99;;
 }
 /* ================/Hero==================== */
 
