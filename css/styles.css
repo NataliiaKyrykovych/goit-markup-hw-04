@@ -105,6 +105,8 @@ img {
 .container-header{
     display: flex;
     align-items: center;
+}
+.page-header{
     border-bottom: 1px solid #E7E9FC;
 }
 .footer{
@@ -114,15 +116,11 @@ img {
     padding-left: 0px;
     padding-right: 0px;
     margin: 0 auto;
-    /* display: flex;
-        padding-left: 156px; */
-    }
+}
 .footer-container{
     display: flex;
     gap: 120px;
     margin: 0 auto;
-    width: 1440px;
-    padding-left: 156px;
 }
 .text-footer {
     font-size: 16px;
@@ -255,7 +253,6 @@ padding-bottom: 120px;
     /* NAVY BLUE */
     color:var(--primary-text-color);
     margin-bottom: 8px;
-    margin-top: 8px;
 }
 .list-suptitle{
     display: flex;
@@ -308,7 +305,6 @@ width: calc((100% - 24px)/4);
     letter-spacing: var(--letter-spacing);
     /* SLATE */
     color:var(--accent-color);
-    margin-bottom: 8px;
 }
 .soc-link:is(:hover, :focus){
     background: #404BBF;
